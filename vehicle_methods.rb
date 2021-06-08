@@ -13,6 +13,7 @@ def use_headlights(brightness = "low_beam")
   puts "Watch out for deer!"
 end
 
+use_headlights
 sound_horn
 accelerate
 use_headlights("high_beam")
